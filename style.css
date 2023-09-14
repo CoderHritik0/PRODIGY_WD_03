@@ -22,6 +22,8 @@ nav ul {
     display: flex;
     justify-content: center;
     margin-top: 150px;
+    margin-right: 5vw;
+    margin-left: 5vw;
 }
 
 .container {
@@ -44,6 +46,10 @@ nav ul {
     background-color: #d97cae;
 }
 
+.info {
+    font-size: larger;
+}
+
 .gameInfo {
     padding: 2vw;
 }
@@ -62,4 +68,15 @@ nav ul {
 
 .bb-0 {
     border-bottom: 0;
+}
+
+#reset {
+    padding: 5px 10px;
+    margin: 0px 15px;
+    background-color: #793e5e;
+    color: white;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
 }
