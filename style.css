@@ -80,3 +80,16 @@ nav ul {
     border-radius: 5px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 950px) {
+    .gameContainer {
+        flex-wrap: wrap;
+        padding: 5vw;
+    }
+
+    .container {
+        margin: 4vw;
+        grid-template-columns: repeat(3, 20vw);
+        grid-template-rows: repeat(3, 20vw);
+    }
+}
